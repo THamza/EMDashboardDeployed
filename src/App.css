@@ -1,0 +1,151 @@
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+ /* Stay at the top */
+  left: 0;
+  background-color: #F6F6F6;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav h2{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  text-decoration: none;
+  color: #484848	;
+}
+
+/* Style page content */
+main {
+  margin-top: 40px;
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 2px 10px;
+}
+
+main button{
+  margin: 10px;
+}
+
+.sidenav h2{
+  font-size: 25px;
+}
+
+.sidenav a{
+  color: #101010	;
+  font-size: 18px;
+}
+
+.popup{
+  max-width: 600px;
+  border-radius: 4px;
+}
+
+.popup .content{
+  text-align: center;
+  margin-bottom: 10px
+}
+.popup .header{
+  margin: 20px;
+}
+
+label{
+  text-align: left;
+  width: 60%;
+  min-width: 300px;
+}
+
+.title{
+  text-align: center;
+  margin-top: 30px;
+}
+
+form {
+  style: none;
+}
+
+.alert {
+  display: inline-block;
+}
+
+.home {
+  margin: 2%;
+  //text-align: center;
+}
+.error {
+  color: red;
+}
+
+.sign {
+  text-align: center;
+  margin: auto;
+  max-width: 300px
+}
+.inside{
+  margin-top: 40px;
+}
+input[type=submit] {
+  margin-bottom: 10px;
+}
+
+
+.userBar{
+  padding: 10px;
+  top: 0;
+  z-index: 100;
+  background-color: #F6F6F6;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+
+.right{
+  padding: 0;
+  margin-left: 90%;
+
+  float: left;
+}
+
+.left{
+  float: left;
+}
+
+
+.column {
+
+  float: left;
+  width: 30%;
+}
+
+.column{
+  margin-left: 1.6%;
+  margin-right: 1.6%;
+  text-align: center;
+  //border: 2px solid black;
+}
+
+.row{
+
+}
+/* Clear floats after the columns */
+.row:after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
