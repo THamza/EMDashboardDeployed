@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://THamza.github.io/emdashboarddeployed",
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "chartist": "^0.11.3",
     "font-awesome": "^4.7.0",
